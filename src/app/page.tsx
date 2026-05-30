@@ -1,17 +1,17 @@
 "use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import HeroLogo from '@/components/sections/hero/HeroLogo';
-import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
-import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
-import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
-import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
-import ContactCTA from '@/components/sections/contact/ContactCTA';
-import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import { Sparkles, Star, Award } from "lucide-react";
+import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
+import HeroLogo from "@/components/sections/hero/HeroLogo";
+import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
+import FeatureCardMedia from "@/components/sections/feature/FeatureCardMedia";
+import ProductCardTwo from "@/components/sections/product/ProductCardTwo";
+import PricingCardThree from "@/components/sections/pricing/PricingCardThree";
+import TestimonialCardTen from "@/components/sections/testimonial/TestimonialCardTen";
+import FaqSplitMedia from "@/components/sections/faq/FaqSplitMedia";
+import ContactCTA from "@/components/sections/contact/ContactCTA";
+import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
+import { Sparkles, Star, Award, Phone } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -266,6 +266,16 @@ export default function LandingPage() {
           logoAlt="Sakthi Ganga Tiles Logo"
         />
       </div>
+
+      <a
+        href="https://wa.me/919876543210?text=Hello%20Sakthi%20Ganga%20Tiles%2C%20I%20have%20a%20question."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-green-500 text-white shadow-lg hover:bg-green-600 transition-colors duration-300"
+        aria-label="Chat on WhatsApp"
+      >
+        <Phone size={24} />
+      </a>
     </ThemeProvider>
   );
 }
