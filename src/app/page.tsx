@@ -59,7 +59,7 @@ export default function LandingPage() {
           imageAlt="Luxurious tile showroom interior"
           showDimOverlay={true}
           useInvertedBackground={false}
-          buttonAnimation="hover-magnetic"
+          buttonAnimation="blur-reveal"
         />
       </div>
 
@@ -75,7 +75,7 @@ export default function LandingPage() {
           useInvertedBackground={true}
           imageSrc="http://img.b2bpic.net/free-photo/tiler-working-renovation-apartment_23-2149278581.jpg"
           imageAlt="Showroom with customer and consultant"
-          mediaAnimation="background-highlight"
+          mediaAnimation="blur-reveal"
         />
       </div>
 
@@ -94,7 +94,7 @@ export default function LandingPage() {
               id: "3",              title: "Modern Sanitary Wares",              description: "Complete your bathroom with our collection of contemporary sanitary wares, blending innovative design with optimal functionality.",              tag: "Bathroom Solutions",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-male-self-care-setting-still-life_23-2150326544.jpg",              imageAlt: "Modern sanitary ware display"
             }
           ]}
-          animationType="background-highlight"
+          animationType="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={false}
         />
@@ -131,7 +131,7 @@ export default function LandingPage() {
             }
           ]}
           gridVariant="uniform-all-items-equal"
-          animationType="background-highlight"
+          animationType="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={true}
         />
@@ -164,7 +164,7 @@ export default function LandingPage() {
               ]
             }
           ]}
-          animationType="background-highlight"
+          animationType="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={false}
         />
@@ -213,9 +213,9 @@ export default function LandingPage() {
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/high-angle-smiley-woman-work_23-2149636257.jpg"
           imageAlt="Customer asking questions"
-          mediaAnimation="background-highlight"
+          mediaAnimation="blur-reveal"
           mediaPosition="right"
-          faqsAnimation="background-highlight"
+          faqsAnimation="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={false}
         />
@@ -232,7 +232,7 @@ export default function LandingPage() {
           ]}
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={true}
-          buttonAnimation="hover-magnetic"
+          buttonAnimation="blur-reveal"
         />
       </div>
 
