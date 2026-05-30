@@ -58,7 +58,6 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/mirror-white-luxury-modern-real_1203-4046.jpg"
           imageAlt="Luxurious tile showroom interior"
           showDimOverlay={true}
-          useInvertedBackground={false}
           buttonAnimation="blur-reveal"
         />
       </div>
